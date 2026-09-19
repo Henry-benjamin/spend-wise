@@ -10,22 +10,32 @@
     <h1 id="heading1">My Budget Tracker</h1>
     <h2 id="subheading1">Track your income and expenses in one place</h2>
 
-    <section class="add-expense">
+    <section class="add-expense-section">
       <fieldset class="details">
         <legend>Add Expense</legend>
 
         <label for="expense_name">the expenses name:</label>
-        <input type="text" id="expense_name" name="expense_name" />
+        <input
+          type="text"
+          id="expense_name"
+          name="expense_name"
+          placeholder="Expense name"
+        />
 
         <label for="amount">the amount:</label>
-        <input type="number" id="amount" name="amount" placeholder="0.01" />
+        <input type="number" id="amount" name="amount" placeholder="Amount" />
 
         <label for="category">the category</label>
-        <input type="text" id="category" name="category" />
+        <input
+          type="text"
+          id="category"
+          name="category"
+          placeholder="Category"
+        />
       </fieldset>
     </section>
 
-    <section class="display-expense">
+    <section class="expenses-section" id="expense-list">
       <h2 id="heading2">Your Expenses</h2>
       <p id="subheading2">No expenses yet</p>
     </section>

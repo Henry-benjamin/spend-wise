@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
 }
 
-.add-expense {
+.add-expense-section {
   background-color: #ffffff;
   padding: 15px;
   border-radius: 8px;
@@ -67,7 +67,7 @@ input {
   border-radius: 4px;
 }
 
-.display-expense {
+.expenses-section {
   /* width: 50%;
   max-width: 600px;
   margin: 0 auto; */
