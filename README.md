@@ -1,6 +1,6 @@
 # Expense Tracker
 
-this is an app where you can track your expenses
+This is an app where you can track your expenses
 
 ## skills
 
@@ -8,10 +8,10 @@ HTML CSS
 
 ### HTML
 
-html is just for page structure
+HTML is just for page structure
 
 ### CSS
 
-css is for styling of page
+CSS is for styling the page
 
-on long of way I will make it interactiveq by include JavaScript and best friedly for users.
+On the long of the way I will make it interactive by including JavaScript and it will be friedly for users.
