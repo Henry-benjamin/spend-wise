@@ -124,44 +124,79 @@ input,
   text-align: center;
 }
 
-button {
-  width: 50%;
-  padding: 7px 15px;
-  border: none;
-  border-radius: 5px;
-  margin: 0 auto;
-  background-color: #1a365d;
-  color: #ffffff;
-  align-items: center;
-  margin: 30px;
-  cursor: pointer;
-}
-
 table {
-  margin: 40px;
   width: 100%;
   border-collapse: collapse;
-  font-family: poppons;
 }
-table > thead {
-  color: #1c1e9d;
-}
-th,
-td {
+
+th {
+  background-color: #2e7d32;
+
+  color: white;
+
+  padding: 12px;
+
   text-align: left;
 }
-tbody tr:nth-child(even) {
-  background-color: #26c1ff;
+
+td {
+  padding: 12px;
+
+  border-bottom: 1px solid #eee;
 }
 
-iframe {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+tr:nth-child(even) {
+  background-color: #f5f5f5;
 }
 
-table tbody tr:hover {
-  background-color: #7bd8fd;
+tr:hover {
+  background-color: #e8f5e9;
+}
+
+.expenses-section td {
+  font-size: 14px;
+}
+
+.add-expense-section > input,
+.add-expense-section > select {
+  display: block;
+
+  width: 100%;
+
+  margin-bottom: 10px;
+
+  padding: 10px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 4px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+
+  border-color: #2e7d32;
+}
+
+input:not([type="submit"]) {
+  background-color: #fafafa;
+}
+
+button {
   cursor: pointer;
+
+  background-color: #2e7d32;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1b5e20;
 }
