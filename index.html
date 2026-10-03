@@ -7,37 +7,115 @@
     <title>spend wise</title>
   </head>
   <body>
-    <h1 id="heading1">My Budget Tracker</h1>
-    <h2 id="subheading1">Track your income and expenses in one place</h2>
+    <div class="container">
+      <header class="big_header">
+        <img id="my_img" src="download 1.jpg" alt="my icon" />
+        <h1 id="heading1">My Budget Tracker</h1>
 
-    <section class="add-expense-section">
-      <fieldset class="details">
-        <legend>Add Expense</legend>
+        <h2 id="subheading1">Track your income and expenses in one place</h2>
+      </header>
 
-        <label for="expense_name">the expenses name:</label>
-        <input
-          type="text"
-          id="expense_name"
-          name="expense_name"
-          placeholder="Expense name"
-        />
+      <details>
+        <summary>How to use this tracker</summary>
+        <p>
+          Welcome to the tracker! To use this form, simply enter your data into
+          the fields below and click "Submit". The table will automatically
+          update with your information.
+        </p>
+      </details>
 
-        <label for="amount">the amount:</label>
-        <input type="number" id="amount" name="amount" placeholder="Amount" />
+      <form action="">
+        <section class="add-expense-section">
+          <!-- <fieldset class="details"> -->
+          <legend>Add Expense</legend>
 
-        <label for="category">the category</label>
-        <input
-          type="text"
-          id="category"
-          name="category"
-          placeholder="Category"
-        />
-      </fieldset>
-    </section>
+          <label for="expense_name">the expenses name:</label>
+          <input
+            type="text"
+            id="expense_name"
+            name="expense_name"
+            placeholder="Expense name"
+          />
 
-    <section class="expenses-section" id="expense-list">
-      <h2 id="heading2">Your Expenses</h2>
-      <p id="subheading2">No expenses yet</p>
-    </section>
+          <label for="id" ="expense-amount">the amount:</label>
+          <input
+            type="number"
+            id="expense-amount"
+            name="amount"
+            placeholder="Amount"
+          />
+
+          <label for="expense-category">the category</label>
+          <select name="category" id="expense-category">
+            <option value="food">Food</option>
+            <option value="">Transport</option>
+            <option value="rent">Rent</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="other">Other</option>
+          </select>
+          <!-- </fieldset> -->
+          <button id="add-expense-section" type="button">Add Expense</button>
+        </section>
+      </form>
+
+      <section class="expenses-section" id="expense-list">
+        <h2 id="heading2">Your Expenses</h2>
+
+        <table>
+          <thead>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Category</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Oranges</td>
+              <td>500</td>
+              <td>Fruit</td>
+            </tr>
+            <tr>
+              <td>Bundles</td>
+              <td>200</td>
+              <td>Airtime</td>
+            </tr>
+            <tr>
+              <td>Tshit</td>
+              <td>800</td>
+              <td>Clothes</td>
+            </tr>
+            <tr>
+              <td>Matress</td>
+              <td>2000</td>
+              <td>Furniture</td>
+            </tr>
+            <tr>
+              <td>Children</td>
+              <td>15000</td>
+              <td>Allowance</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </section>
+
+      <iframe
+        width="752"
+        height="432"
+        src="https://www.youtube.com/embed/-bqeNE1DOzA"
+        title="START BUDGETING with Little Money (10 Easy Tips for 2026)"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
   </body>
 </html>
