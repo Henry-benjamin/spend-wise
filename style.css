@@ -153,9 +153,6 @@ td {
 tbody tr:nth-child(even) {
   background-color: #26c1ff;
 }
-tbody tr:nth-child(even):hover {
-  background-color: #26c1ff;
-}
 
 iframe {
   margin: 0 auto;
@@ -165,6 +162,6 @@ iframe {
 }
 
 table tbody tr:hover {
-  background-color: #19d191;
+  background-color: #7bd8fd;
   cursor: pointer;
 }
