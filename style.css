@@ -60,19 +60,6 @@ body {
   margin-bottom: 30px;
 }
 
-/* fieldset {
- 
-  width: 60%;
- 
-  
-  margin: 0 auto;
-
-  border: 2px solid #2b6cb0;
-  border-radius: 6px;
-  padding: 20px;
-  background-color: #ffffff;
-} */
-
 legend {
   font-weight: bold;
   font-size: 1.1rem;
@@ -94,17 +81,6 @@ input,
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
-/* .expenses-section {
-   width: 50%;
-  max-width: 600px;
-  margin: 0 auto; 
-
-  background-color: #e2e8f0;
-  padding: 20px;
-  border-radius: 8px;
-  border-left: 5px solid #4a5568;
-} */
 
 #heading2 {
   color: #2d3748;
@@ -131,17 +107,13 @@ table {
 
 th {
   background-color: #2e7d32;
-
   color: white;
-
   padding: 12px;
-
   text-align: left;
 }
 
 td {
   padding: 12px;
-
   border-bottom: 1px solid #eee;
 }
 
@@ -160,22 +132,16 @@ tr:hover {
 .add-expense-section > input,
 .add-expense-section > select {
   display: block;
-
   width: 100%;
-
   margin-bottom: 10px;
-
   padding: 10px;
-
   border: 1px solid #ddd;
-
   border-radius: 4px;
 }
 
 input:focus,
 select:focus {
   outline: none;
-
   border-color: #2e7d32;
 }
 
@@ -185,15 +151,10 @@ input:not([type="submit"]) {
 
 button {
   cursor: pointer;
-
   background-color: #2e7d32;
-
   color: white;
-
   border: none;
-
   padding: 10px 20px;
-
   border-radius: 4px;
 }
 
