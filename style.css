@@ -8,10 +8,22 @@
 /* 1. Palette & Body Typography */
 body {
   font-family: "Inter", sans-serif;
-  background-color: #f0f4f8;
-  color: #2d3748;
-  padding: 30px;
-  line-height: 1.6;
+  background-color: #fafafa;
+  margin: 20px;
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #2e7d32;
+}
+
+.add-expense-section {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
 }
 
 /* Heading Typography & Colors */
@@ -117,28 +129,6 @@ input:focus,
   background-color: #ffffff;
 }
 
-button {
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
-  background-color: #2e7d32;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 6px;
-  font-size: 1rem;
-  margin-top: 10px;
-  width: 100%;
-}
-
-button:hover {
-  background-color: #1b5e20;
-}
-
-/* 3. Expense Table Styling */
-.expenses-section h2 {
-  margin-bottom: 15px;
-}
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -148,21 +138,37 @@ table {
 }
 
 th {
-  font-family: "Poppins", sans-serif;
   background-color: #2e7d32;
   color: white;
-  padding: 12px 16px;
+  padding: 12px;
   text-align: left;
 }
 
 td {
-  padding: 12px 16px;
-  border-bottom: 1px solid #e2e8f0;
-  font-size: 14px;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
 }
 
 tr:nth-child(even) {
-  background-color: #f8fafc;
+  background-color: #f5f5f5;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+/* 3. Expense Table Styling */
+.expenses-section h2 {
+  margin-bottom: 15px;
 }
 
 tr:hover {
