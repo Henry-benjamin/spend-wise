@@ -3,34 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Inter&display=swap" rel="stylesheet"> 
     <title>spend wise</title>
   </head>
   <body>
     <div class="container">
-      <header class="big_header">
+      <!-- Card 1: Page Header -->
+      <header class="card big_header">
         <img id="my_img" src="download 1.jpg" alt="my icon" />
         <h1 id="heading1">My Budget Tracker</h1>
-
         <h2 id="subheading1">Track your income and expenses in one place</h2>
       </header>
 
       <details>
         <summary>How to use this tracker</summary>
-
         <p>
           Fill in the expense name, enter the amount, choose a category from the
           dropdown, then click "Add Expense" to record it.
         </p>
       </details>
 
-      <div class="add-expense-section">
+      <!-- Card 2: Add Expense Form -->
+      <div class="card add-expense-section">
         <h2>Add Expense</h2>
 
         <form>
+          <label for="expense-name">Expense Name</label>
           <input type="text" id="expense-name" placeholder="Expense name" />
+
+          <label for="expense-amount">Amount</label>
           <input type="number" id="expense-amount" placeholder="Amount" />
+
+          <label for="expense-category">Category</label>
           <select id="expense-category">
             <option value="food">Food</option>
             <option value="transport">Transport</option>
@@ -43,7 +53,8 @@
         </form>
       </div>
 
-      <div class="expenses-section" id="expense-list">
+      <!-- Card 3: Expense Table -->
+      <div class="card expenses-section" id="expense-list">
         <h2>Your Expenses</h2>
 
         <table>
