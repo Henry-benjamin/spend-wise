@@ -10,7 +10,6 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #fafafa;
   margin: 20px;
-  line-height: 1.6;
 }
 
 /* Single deliberate heading rule (using forest green palette) */
@@ -145,7 +144,6 @@ table {
 }
 
 th {
-  font-family: "Poppins", sans-serif;
   background-color: #2e7d32;
   color: white;
   padding: 12px;
@@ -155,7 +153,6 @@ th {
 td {
   padding: 12px;
   border-bottom: 1px solid #eee;
-  font-size: 14px;
 }
 
 tr:nth-child(even) {
